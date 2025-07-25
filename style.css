@@ -311,7 +311,8 @@ footer input[type="text"], footer input[type="email"],footer textarea{
   border: none;
   margin-bottom: 24px;
   width: 100%;
-  
+  font-size: 16px;
+  font-weight: 400;
 }
 footer input[type="text"], footer input[type="email"],footer textarea:focus{
   outline: none;
