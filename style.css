@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+    background-color: #FFF8F3;
+    background-image: url(./img/Ellipse\ 3.png),url(./img/Developer\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
+
+}
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+.logo {
+}
+.logo h2 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.logo span {
+  color: #fd6e0a;
+}
+.menu {
+}
+.menu ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+.hire-me-btn {
+  text-decoration: none;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 20px 35px;
+  color: white;
+  font-weight: 700;
+}
+
+
+/* banner start */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-content{
+    margin-left: 200px;
+}
+.b-content h2{
+    color: #474747;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.b-content h1{
+    font-size: 85px;
+    margin-bottom: 20px;
+
+}
+.b-content p{
+    margin-bottom: 30px;
+}
+.button-container{
+    display: flex;
+    gap: 30px;
+}
+.cv-btn{
+
+}
+.cv-btn button{
+    background-color: #fd6e0a;
+    padding: 20px 17px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact-btn{
+
+}
+.contact-btn button{
+     background-color: transparent;
+    padding: 20px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+}
+.b-img{
+
+}
+.b-img img{
+    margin-bottom: -5px;
+}
+/* banner end */
