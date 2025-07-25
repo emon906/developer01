@@ -269,7 +269,7 @@ main{
     margin-right: 10px;
 }
 .resume-btn button{
-  background-color: #fd6e0a;
+    background-color: #fd6e0a;
     padding: 20px 17px;
     border-radius: 5px;
     border: none;
@@ -279,3 +279,57 @@ main{
     font-weight: 700;
 }
 /* resume end */
+/* footer start */
+footer{
+  display: flex;
+  background-color: #FFF8F3;
+  padding: 130px 230px;
+  gap: 100px;
+  justify-content: space-between;
+}
+.footer-column{
+
+}
+.footer-column h2{
+   color: #181818;
+   font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.footer-column p{
+    color: #757575;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+   margin-bottom: 30px;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+  display: block;
+  background-color: white;
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 24px;
+  width: 100%;
+  
+}
+footer input[type="text"], footer input[type="email"],footer textarea:focus{
+  outline: none;
+}
+.footer-column{
+  width: 50%;
+}
+.icons a{
+  color: #FD6E0A;
+  margin-right: 20px;
+}
+footer input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 40px;
+}
+
+/* footer end */
